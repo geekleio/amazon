@@ -10,7 +10,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>1.0.0.0</Version>
+    <Version>1.0.0.2270</Version>
     <Authors>Michael Mortensen</Authors>
     <Company>Weubphoria</Company>
     <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
@@ -20,6 +20,12 @@
     <PackageProjectUrl>https://github.com/wbpa/amazon</PackageProjectUrl>
     <PackageIconUrl>https://nblcdn.net/themes/weubphoria.dk/nuget/wbpa-awssdk.png</PackageIconUrl>
     <PackageTags>amazon aws cloud aws-sdk wrapper wbpa</PackageTags>
+    <AssemblyVersion>1.0.0.2270</AssemblyVersion>
+    <FileVersion>1.0.0.2270</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.4\WBPA.Amazon.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
