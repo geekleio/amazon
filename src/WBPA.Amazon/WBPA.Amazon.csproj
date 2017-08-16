@@ -17,13 +17,6 @@
     <Product>AWSSDK.Core Wrapper by Weubphoria</Product>
     <Description>The WBPA.Amazon assembly provides extensions and generic classes to help ease the usage towards AWS and is the core member of a range of wrappers tailored to the AWSSDK.</Description>
     <Copyright>Copyright © Weubphoria 2009-2017. All rights reserved.</Copyright>
-    <PackageReleaseNotes>
-      1.0.0.0
-      * ADDED - ConstantClassCollection class in the WBPA.Amazon namespace that is an abstract class for establishing concrete implementations of the ConstantClass
-      * ADDED - New extensions for IRequest: GetApproximateMessageSize
-      * ADDED - New extensions for AmazonWebServiceRequest: Marshall
-      * ADDED - New extensions for Uri: ToRegionEndpoint
-    </PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/wbpa/amazon</PackageProjectUrl>
     <PackageIconUrl>https://nblcdn.net/themes/weubphoria.dk/nuget/wbpa-awssdk.png</PackageIconUrl>
     <PackageTags>amazon aws cloud aws-sdk wrapper wbpa</PackageTags>
