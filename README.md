@@ -1,4 +1,4 @@
-![WBPA.Amazon](https://nblcdn.net/themes/weubphoria.dk/nuget/wbpa-awssdk.png)
+![WBPA.Amazon](https://nblcdn.net/themes/weubphoria.dk/nuget/wbpa-awssdk.png?v=1)
 
 WBPA.Amazon
 ----------------
