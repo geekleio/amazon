@@ -16,12 +16,12 @@
     <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
     <Product>AWSSDK.Core Wrapper by Weubphoria</Product>
     <Description>The WBPA.Amazon assembly provides extensions and generic classes to help ease the usage towards AWS and is the core member of a range of wrappers tailored to the AWSSDK.</Description>
-    <Copyright>Copyright © Weubphoria 2009-2017. All rights reserved.</Copyright>
+    <Copyright>Copyright © Weubphoria 2009-2018. All rights reserved.</Copyright>
     <PackageProjectUrl>https://github.com/wbpa/amazon</PackageProjectUrl>
     <PackageIconUrl>https://nblcdn.net/themes/weubphoria.dk/nuget/wbpa-awssdk.png</PackageIconUrl>
     <PackageTags>amazon aws cloud aws-sdk wrapper wbpa</PackageTags>
-    <AssemblyVersion>1.0.0.2270</AssemblyVersion>
-    <FileVersion>1.0.0.2270</FileVersion>
+    <AssemblyVersion>1.0.2018.840</AssemblyVersion>
+    <FileVersion>1.0.2018.840</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
