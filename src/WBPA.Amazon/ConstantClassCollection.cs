@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Amazon.Runtime;
 
@@ -128,9 +129,6 @@ namespace WBPA.Amazon
         {
             _wrapper.RemoveAt(index);
         }
-
-
-
 
         /// <summary>
         /// Returns an enumerator that iterates through the collection.
