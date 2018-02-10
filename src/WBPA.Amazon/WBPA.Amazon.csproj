@@ -9,11 +9,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Version>1.0.2018.840</Version>
     <Authors>Michael Mortensen</Authors>
     <Company>Weubphoria</Company>
-    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/wbpa/amazon/blob/master/LICENSE.md</PackageLicenseUrl>
     <Product>AWSSDK.Core Wrapper by Weubphoria</Product>
     <Description>The WBPA.Amazon assembly provides extensions and generic classes to help ease the usage towards AWS and is the core member of a range of wrappers tailored to the AWSSDK.</Description>
     <Copyright>Copyright © Weubphoria 2009-2018. All rights reserved.</Copyright>
@@ -30,7 +30,8 @@
 
   <ItemGroup>
     <PackageReference Include="AWSSDK.Core" Version="3.3.21.11" />
-    <PackageReference Include="Cuemon.Core.Package" Version="4.2.2017.2270" />
+    <PackageReference Include="Cuemon.Core" Version="4.2.2018.840" />
+    <PackageReference Include="Cuemon.Reflection" Version="4.2.2018.840" />
   </ItemGroup>
 
 </Project>
