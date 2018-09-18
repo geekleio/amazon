@@ -10,7 +10,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>1.0.2018.2200</Version>
+    <Version>1.0.2018.2530</Version>
     <Authors>Michael Mortensen</Authors>
     <Company>Weubphoria</Company>
     <PackageLicenseUrl>https://github.com/wbpa/amazon/blob/master/LICENSE.md</PackageLicenseUrl>
@@ -21,7 +21,7 @@
     <PackageIconUrl>https://nblcdn.net/themes/weubphoria.dk/nuget/wbpa-awssdk.png</PackageIconUrl>
     <PackageTags>amazon aws cloud aws-sdk wrapper wbpa</PackageTags>
     <AssemblyVersion>1.0.2018.2200</AssemblyVersion>
-    <FileVersion>1.0.2018.2200</FileVersion>
+    <FileVersion>1.0.2018.2530</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -29,9 +29,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AWSSDK.Core" Version="3.3.24.6" />
-    <PackageReference Include="Cuemon.Core" Version="4.3.2018.2200" />
-    <PackageReference Include="Cuemon.Reflection" Version="4.3.2018.2200" />
+    <PackageReference Include="AWSSDK.Core" Version="3.3.25.3" />
+    <PackageReference Include="Cuemon.Core" Version="5.0.2018.253" />
+    <PackageReference Include="Cuemon.Reflection" Version="5.0.2018.251" />
   </ItemGroup>
 
 </Project>
